@@ -1,0 +1,358 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0px;
+    padding-bottom: 0px;
+    height: 100%;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+nav {
+    padding-right: 3%;
+    padding-top: 12%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0.5%;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 50%;
+    margin-bottom: 0px;
+    font-size: 5rem;
+    text-align: center;
+    line-height: 2;
+    font-family: 'Sacramento', cursive;
+    color: #ffffff;
+}
+
+h2, a {
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    text-decoration: none;
+}
+
+h3 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1rem;
+    color: #000000;
+}
+
+th, td, h4 {
+    font-family: 'Montserrat', serif;
+    font-weight: normal;
+    color: #222121;
+}
+
+.title-text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 0.85rem;
+    line-height: 2;
+    font-family: 'Lato';
+    font-weight: bold;
+    color: 	 #F7484E;
+}
+
+.title-text2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 0.85rem;
+    line-height: 2;
+    font-family: 'Lato';
+    font-weight: bold;
+    color: 	 #ffffff;
+}
+
+.container {
+    height: 100%;
+    text-align: center;
+    background-color: #292828;
+}
+
+.split-container-content {
+    overflow: auto;
+    overflow-x: hidden; 
+    overflow-y: auto;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: inline; 
+    float: left;
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+}
+.split-container-content::-webkit-scrollbar {
+    display: none;
+}
+
+.split-container-fixed {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 50%;
+    height: 100%;
+    display: inline; 
+    float: left;  
+}
+
+@media only screen 
+and (max-width : 990px) 
+{
+    .split-container-fixed {
+        width: 100%;
+    }
+
+    .split-container-content {
+        width: 100%;
+    }   
+}
+
+.timeline {
+    width:100%;
+    max-width:800px;
+    background:#fff;
+    padding: 100px 50px;
+    position: relative;
+    box-shadow: 0.5rem 0.5rem 2rem 0 rgba(black, 0.2);
+}
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left:calc(33% + 15px);
+    bottom: 0px;
+    width: 4px;
+    background: #ddd;
+}
+.timeline::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.entry {
+    clear: both;
+    text-align: left;
+    position: relative;
+}
+.entry .title {
+    margin-bottom: .5em;
+    float: left;
+    width: 33%;
+    padding-right: 30px;
+    text-align: right;
+    position: relative;
+}
+.entry .title::before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 4px solid #F7484E;
+    background-color:#fff;
+    border-radius:100%;
+    top: 15%;
+    right: -8px;
+    z-index: 99;
+}
+.entry .title h3 {
+    margin: 0;
+    font-size: 90%;
+    font-family: 'Lato';
+}
+.entry .title p {
+    margin: 0;
+    font-size: 100%;
+}
+.entry .body {
+    margin: 0 0 3em;
+    float: right;
+    width: 66%;
+    padding-left: 30px;
+}
+.entry .body p {
+    line-height: 1.4em;
+}
+.entry .body p:first-child {
+    margin-top: 0;
+    font-weight: 400;
+}
+.entry .body ul {
+    color:#aaa;
+    padding-left: 0;
+    list-style-type: none;
+}  
+.entry .body li .type1::before {
+    content: "";
+    font-size: 0.5rem;
+}
+.entry .body li .type2::before {
+    content: "-";
+    font-size: 0.5rem;
+}
+
+.mini-row-container, .mini-row-container2, .mini-row-container3, .mini-row-container4, .mini-row-container5, .mini-row-container6, .mini-row-container7 {
+    background-size: 100% 100%;
+    height: 55%; 
+}
+.mini-row-container:hover .fade1, .mini-row-container2:hover .fade2, .mini-row-container3:hover .fade3, .mini-row-container4:hover .fade4, .mini-row-container5:hover .fade5, .mini-row-container6:hover .fade6, .mini-row-container7:hover .fade7 {
+    height: 55%;
+}
+.mini-row-container:hover .overlay1, .mini-row-container2:hover .overlay1, .mini-row-container3:hover .overlay1, .mini-row-container4:hover .overlay1, .mini-row-container5:hover .overlay1, .mini-row-container6:hover .overlay1, .mini-row-container7:hover .overlay1 {
+    opacity: 0.9;
+}
+
+.overlay1 {
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background: #eee;
+}
+.fade1 {
+    width: 100%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    background-color: #1f1f1f;
+}
+.fade2 {
+    width: 100%;
+    height: 0%;
+    top: 55%;
+    left: 0;
+    background-color: #1f1f1f;
+}
+.fade3 {
+    width: 100%;
+    height: 0%;
+    top: 110%;
+    left: 0;
+    background-color: #1f1f1f;
+}
+.fade4 {
+    width: 100%;
+    height: 0%;
+    top: 165%;
+    left: 0;
+    background-color: #1f1f1f;
+}
+.fade5 {
+    width: 100%;
+    height: 0%;
+    top: 220%;
+    left: 0;
+    background-color: #1f1f1f;
+}
+.fade6 {
+    width: 100%;
+    height: 0%;
+    top: 275%;
+    left: 0;
+    background-color: #1f1f1f;
+}
+.fade7 {
+    width: 100%;
+    height: 0%;
+    top: 330%;
+    left: 0;
+    background-color: #1f1f1f;
+}
+.overlay-text {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Sacramento', cursive;
+}
+.overlay-text2 {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Montserrat';
+}
+.overlay-text3 {
+    color: white;
+    text-align: left;
+    padding-top: 7%;
+    padding-left: 6%;
+    padding-right: 4%;
+    font-size: 1rem;
+    font-family: 'Montserrat';
+}
+
+.button1 {
+    color: #fff;
+    background: none;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    padding: 0;
+    border: none;
+    font-size: 1.5rem;
+    line-height: 2;
+    font-family: "Montserrat";
+    cursor: pointer;
+    margin: 10px; 
+    transition: 0.8s;
+}
+.button1:hover {
+    color: #F7484E;
+}
+
+.Site {
+    width: 32%;
+    display: inline-block;
+}
+
+.profile-img {
+    position: absolute;
+    margin-top: 4%;
+    margin-left: -75px;
+    max-width: 150px;
+    max-height: 150px;
+    z-index: 1;
+}
+
+.city {
+    position: absolute;
+    left: 10%;
+    bottom: 22%;
+}
+.city2 {
+    position: absolute;
+    left: 43%;
+    bottom: 18%;
+}
+.city3 {
+    position: absolute;
+    right: 10%;
+    bottom: 22%;
+}
+
+.copyright {
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 1rem;
+    font-family: "Lato";
+    font-weight: normal;
+    color: #ffffff;
+    padding-top: 10%;
+}
+
+@media only screen 
+and (max-width : 990px) 
+{
+    .profile-img {
+        display: none;
+    }
+}
