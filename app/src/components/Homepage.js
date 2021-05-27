@@ -2,11 +2,13 @@ import React from 'react';
 import { Slide } from "react-slideshow-image";
 import 'react-slideshow-image/dist/styles.css';
 import '../style/homepage.css';
+import avatar from '../assets/images/avatar.jpeg';
 
 export default function Homepage() {
   return (
     <div id="home" className="split-container">
       <div className="split-container-left">
+        <img src={avatar}></img>
         <h1 className="author-text">Kun Hwi Ko</h1>
         <nav>
           <ul>
