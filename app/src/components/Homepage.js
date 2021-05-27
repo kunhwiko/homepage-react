@@ -8,17 +8,17 @@ export default function Homepage() {
   return (
     <div id="home" className="split-container">
       <div className="split-container-left">
-        <img src={avatar}></img>
+        <img alt="avatar" className="avatar" src={avatar} />
         <h1 className="author-text">Kun Hwi Ko</h1>
         <nav>
           <ul>
-            <li><a className="title-text" href="/home">ABOUT</a></li>
-            <li><h2 className="title-text">/</h2></li>
-            <li><a className="title-text" href="/filteredListings">WORK</a></li>
-            <li><h2 className="title-text">/</h2></li>
-            <li><a className="title-text" href="/neighborhoods">PROJECTS</a></li>
-            <li><h2 className="title-text">/</h2></li>
-            <li><a className="title-text" href="/neighborhoods">CONTACT</a></li>
+            <li><a className="nav-text" href="/home">ABOUT</a></li>
+            <li><h2 className="nav-text">/</h2></li>
+            <li><a className="nav-text" href="/filteredListings">WORK</a></li>
+            <li><h2 className="nav-text">/</h2></li>
+            <li><a className="nav-text" href="/neighborhoods">PROJECTS</a></li>
+            <li><h2 className="nav-text">/</h2></li>
+            <li><a className="nav-text" href="/neighborhoods">CONTACT</a></li>
           </ul>
         </nav>
       </div>
