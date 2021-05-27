@@ -5,20 +5,22 @@ import '../style/homepage.css';
 
 export default function Homepage() {
   return (
-    <div id="about" className="container">
-      <div className="left-split-container">
-        <h1>Crimebnb</h1>
+    <div id="home" className="split-container">
+      <div className="split-container-left">
+        <h1 className="author-text">Kun Hwi Ko</h1>
         <nav>
           <ul>
-            <li><a className="title-text" href="/home">HOME</a></li>
+            <li><a className="title-text" href="/home">ABOUT</a></li>
             <li><h2 className="title-text">/</h2></li>
-            <li><a className="title-text" href="/filteredListings">LISTINGS</a></li>
+            <li><a className="title-text" href="/filteredListings">WORK</a></li>
             <li><h2 className="title-text">/</h2></li>
-            <li><a className="title-text" href="/neighborhoods">NEIGHBORHOODS</a></li>
+            <li><a className="title-text" href="/neighborhoods">PROJECTS</a></li>
+            <li><h2 className="title-text">/</h2></li>
+            <li><a className="title-text" href="/neighborhoods">CONTACT</a></li>
           </ul>
         </nav>
       </div>
-      <div className="right-split-container">
+      <div className="split-container-right">
         <div className="slide-container">
           <Slide>
             <div className="each-slide">
