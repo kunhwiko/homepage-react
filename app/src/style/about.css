@@ -1,0 +1,155 @@
+html, body {
+    margin: 0px;
+    padding-bottom: 0px;
+    height: 100vh;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0.5%;
+}
+
+.split-container {
+    margin: 0 !important;
+    padding: 0 !important;
+    min-width: 100%;
+    width: 100vh;
+}
+
+.split-container-left {
+    width: 30%;
+    height: 100%;
+    display: inline; 
+    float: left;  
+    background-color: #ffffff;
+}
+
+.split-container-right {
+    width: 70%;
+    height: 100%;
+    display: inline; 
+    float: right;  
+}
+
+.avatar {
+    margin-top: 30%;
+    border-radius: 50%;
+    max-width: 50%;
+    color: #545454;
+    border-style: solid;
+    border-width: thin;
+}
+
+.author-text {
+    margin-top: 10%;
+    margin-bottom: 0px;
+    font-size: 3.2rem;
+    text-align: center;
+    line-height: 2;
+    font-family: 'Sacramento';
+    font-weight: 300;
+    color: #545454;
+}
+
+.nav-text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 0.8rem;
+    line-height: 2;
+    font-family: 'Lato';
+    font-weight: 300;
+    color: #545454;
+    text-decoration: none;
+}
+
+.nav-text:hover {
+    color: #666666bd;
+    text-decoration: underline;
+}
+
+.slide-text1 {
+    margin-top: 20%;
+    margin-left: 17%;
+    font-size: 2rem;
+    font-family: 'Cormorant';
+    color: #ffffff;
+}
+
+.slide-text2 {
+    margin-right: 20%;
+    font-size: 2rem;
+    font-family: 'Cormorant';
+    color: #ffffff;
+}
+
+.slide-text3 {
+    margin-right: 35%;
+    margin-bottom: 15%;
+    font-size: 2rem;
+    font-family: 'Cormorant';
+    color: #ffffff;
+}
+
+.slide-text4 {
+    margin-left: 5%;
+    margin-bottom: 25%;
+    font-size: 2rem;
+    font-family: 'Cormorant';
+    color: #ffffff;
+}
+
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* responsive changes */
+@media screen and (max-width: 992px) {
+    .author-text {
+        font-size: 2.5rem;
+    }
+    .nav-text {
+        font-size: 0.7rem;
+    }
+    .slide-text1, .slide-text2, .slide-text3, .slide-text4 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .avatar {
+        margin-top: 20%;
+        max-width: 20%;
+    }
+    .author-text {
+        font-size: 2.5rem;
+    }
+    .split-container-left {
+        width: 100%;
+    }
+    .split-container-right {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+  

@@ -23,7 +23,7 @@ nav li {
     width: 100vh;
 }
 
-.split-container-left {
+.split-container-left-home {
     width: 30%;
     height: 100%;
     display: inline; 
@@ -31,7 +31,7 @@ nav li {
     background-color: #ffffff;
 }
 
-.split-container-right {
+.split-container-right-home {
     width: 70%;
     height: 100%;
     display: inline; 
@@ -47,7 +47,7 @@ nav li {
     border-width: thin;
 }
 
-.author-text {
+.author-text-home {
     margin-top: 10%;
     margin-bottom: 0px;
     font-size: 3.2rem;
@@ -58,7 +58,7 @@ nav li {
     color: #545454;
 }
 
-.nav-text {
+.nav-text-home {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 0.8rem;
@@ -69,7 +69,7 @@ nav li {
     text-decoration: none;
 }
 
-.nav-text:hover {
+.nav-text-home:hover {
     color: #666666bd;
     text-decoration: underline;
 }
