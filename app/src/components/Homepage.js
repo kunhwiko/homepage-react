@@ -23,25 +23,23 @@ export default function Homepage() {
         </nav>
       </div>
       <div className="split-container-right">
-        <div className="slide-container">
-          <Slide>
-            <div className="each-slide">
-              <div style={{'backgroundImage': 'url(assets/images/lease1.jpg)'}}>
-                <h1 className="slide-text1">Travel Safe</h1>
-              </div>
+        <Slide>
+          <div className="each-slide">
+            <div style={{'backgroundImage': 'url(assets/images/about1.jpg)'}}>
+            <h3 className="slide-text1">Software Engineer in Silicon Valley</h3>
             </div>
-            <div className="each-slide">
-              <div style={{'backgroundImage': 'url(assets/images/lease2.jpg)'}}>
-                <h1 className="slide-text2">Travel More</h1>
-              </div>
+          </div>
+          <div className="each-slide">
+            <div style={{'backgroundImage': 'url(assets/images/lease2.jpg)'}}>
+              <h1 className="slide-text2">Travel More</h1>
             </div>
-            <div className="each-slide">
-              <div style={{'backgroundImage': 'url(assets/images/lease3.jpg)'}}>
-                <h1 className="slide-text3">Travel Further</h1>
-              </div>
+          </div>
+          <div className="each-slide">
+            <div style={{'backgroundImage': 'url(assets/images/lease3.jpg)'}}>
+              <h1 className="slide-text3">Travel Further</h1>
             </div>
-          </Slide>
-        </div>
+          </div>
+        </Slide>
       </div>
     </div>    
   );

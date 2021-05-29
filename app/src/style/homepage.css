@@ -33,7 +33,7 @@ nav li {
 .split-container-right {
     width: 68%;
     display: inline; 
-    float: left;  
+    float: right;  
 }
 
 .avatar {
@@ -72,6 +72,14 @@ nav li {
     text-decoration: underline;
 }
 
+.slide-text1 {
+    margin-top: 5%;
+    margin-left: 20%;
+    font-size: 2rem;
+    font-family: 'Cormorant';
+    color: #ffffff;
+}
+
 /* responsive changes */
 @media screen and (max-width: 600px) {
     .author-text {
@@ -83,36 +91,13 @@ nav li {
     .split-container-right {
         width: 100%;
     }
-  }
-
-
-
-
-
-.brand-text { 
-    color: black;
-}
-
-.brand-text:hover { 
-    color: #666666bd;
-    text-decoration: none;
 }
 
 
-.slide-container {
-    width: 100%;
-    height: 100vh;
-    margin: auto;
-}
 
-.slide-text1 {
-    padding-top: 0%;
-    margin-top: 5%;
-    margin-left: 50%;
-    font-size: 3rem;
-    font-family: 'Cormorant';
-    color: #ffffff;
-}
+
+
+
 
 .slide-text2 {
     padding-top: 0%;
@@ -129,6 +114,9 @@ nav li {
     font-family: 'Cormorant';
     color: #ffffff;
 }
+
+
+
 
 .each-slide > div {
     display: flex;
