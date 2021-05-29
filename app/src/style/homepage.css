@@ -24,20 +24,20 @@ nav li {
 }
 
 .split-container-left {
-    width: 32%;
+    width: 30%;
     display: inline; 
     float: left;  
     background-color: #ffffff;
 }
 
 .split-container-right {
-    width: 68%;
+    width: 70%;
     display: inline; 
     float: right;  
 }
 
 .avatar {
-    margin-top: 20%;
+    margin-top: 30%;
     border-radius: 50%;
     max-width: 50%;
     color: #545454;
@@ -48,7 +48,7 @@ nav li {
 .author-text {
     margin-top: 10%;
     margin-bottom: 0px;
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     text-align: center;
     line-height: 2;
     font-family: 'Sacramento';
@@ -59,7 +59,7 @@ nav li {
 .nav-text {
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     line-height: 2;
     font-family: 'Lato';
     font-weight: 300;
@@ -74,6 +74,27 @@ nav li {
 
 .slide-text1 {
     margin-top: 5%;
+    margin-left: 20%;
+    font-size: 2rem;
+    font-family: 'Cormorant';
+    color: #ffffff;
+}
+
+.slide-text2 {
+    margin-right: 20%;
+    font-size: 2rem;
+    font-family: 'Cormorant';
+    color: #ffffff;
+}
+
+.slide-text3 {
+    margin-right: 20%;
+    font-size: 2rem;
+    font-family: 'Cormorant';
+    color: #ffffff;
+}
+
+.slide-text4 {
     margin-left: 20%;
     font-size: 2rem;
     font-family: 'Cormorant';
@@ -98,22 +119,6 @@ nav li {
 
 
 
-
-.slide-text2 {
-    padding-top: 0%;
-    margin-right: 20%;
-    font-size: 3rem;
-    font-family: 'Cormorant';
-    color: #000000;
-}
-
-.slide-text3 {
-    padding-top: 0%;
-    margin-left: 20%;
-    font-size: 3rem;
-    font-family: 'Cormorant';
-    color: #ffffff;
-}
 
 
 
