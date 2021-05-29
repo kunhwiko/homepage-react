@@ -5,6 +5,7 @@ import {
   Switch
 } from 'react-router-dom';
 import Homepage from './Homepage';
+import About from './About';
 
 export default function App() {
   return (
@@ -20,6 +21,11 @@ export default function App() {
             exact
             path="/home"
             component={Homepage}
+          />
+          <Route
+            exact
+            path="/about"
+            component={About}
           />
         </Switch>          
       </Router>
