@@ -25,6 +25,7 @@ nav li {
 
 .split-container-left {
     width: 30%;
+    height: 100%;
     display: inline; 
     float: left;  
     background-color: #ffffff;
@@ -32,6 +33,7 @@ nav li {
 
 .split-container-right {
     width: 70%;
+    height: 100%;
     display: inline; 
     float: right;  
 }
@@ -96,17 +98,41 @@ nav li {
 }
 
 .slide-text4 {
-    margin-right: 25%;
+    margin-left: 5%;
     margin-bottom: 25%;
     font-size: 2rem;
     font-family: 'Cormorant';
     color: #ffffff;
 }
 
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 100vh;
+}
+
 /* responsive changes */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 992px) {
     .author-text {
-        font-size: 1rem;
+        font-size: 2.5rem;
+    }
+    .nav-text {
+        font-size: 0.7rem;
+    }
+    .slide-text1, .slide-text2, .slide-text3, .slide-text4 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .avatar {
+        margin-top: 20%;
+        max-width: 20%;
+    }
+    .author-text {
+        font-size: 2.5rem;
     }
     .split-container-left {
         width: 100%;
@@ -125,37 +151,5 @@ nav li {
 
 
 
-.each-slide > div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-size: cover;
-    height: 100vh;
-}
 
-.each-slide span {
-    text-align: center;
-}
-
-.each-fade {
-    display: flex;
-}
-  
-.each-fade .image-container {
-    width: 75%;
-    overflow: hidden;
-}
-  
-.each-fade .image-container img {
-    width: 100%;
-}
-
-.each-fade h2 {
-    width: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    background: #adceed;
-}
   
