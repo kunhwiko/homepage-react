@@ -12,13 +12,13 @@ export default function Homepage() {
         <h1 className="author-text">Kun Hwi Ko</h1>
         <nav>
           <ul>
-            <li><a className="nav-text" href="/home">ABOUT</a></li>
+            <li><a className="nav-text" href="/about">ABOUT</a></li>
             <li><h2 className="nav-text">/</h2></li>
-            <li><a className="nav-text" href="/filteredListings">WORK</a></li>
+            <li><a className="nav-text" href="/work">WORK</a></li>
             <li><h2 className="nav-text">/</h2></li>
-            <li><a className="nav-text" href="/neighborhoods">PROJECTS</a></li>
+            <li><a className="nav-text" href="/projects">PROJECTS</a></li>
             <li><h2 className="nav-text">/</h2></li>
-            <li><a className="nav-text" href="/neighborhoods">CONTACT</a></li>
+            <li><a className="nav-text" href="/contact">CONTACT</a></li>
           </ul>
         </nav>
       </div>
@@ -35,13 +35,13 @@ export default function Homepage() {
             </div>
           </div>
           <div className="each-slide">
-            <div style={{'backgroundImage': 'url(assets/images/home4.jpg)'}}>
-              <h1 className="slide-text2">Stock Investor</h1>
+            <div style={{'backgroundImage': 'url(assets/images/home3.jpg)'}}>
+              <h1 className="slide-text3">Stock Investor</h1>
             </div>
           </div>
           <div className="each-slide">
-            <div style={{'backgroundImage': 'url(assets/images/home5.jpg)'}}>
-              <h1 className="slide-text3">Cycling Enthusiast</h1>
+            <div style={{'backgroundImage': 'url(assets/images/home4.jpg)'}}>
+              <h1 className="slide-text4">Cycling Enthusiast</h1>
             </div>
           </div>
         </Slide>
