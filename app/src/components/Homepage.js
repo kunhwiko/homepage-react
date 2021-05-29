@@ -1,5 +1,6 @@
 import React from 'react';
 import { Slide } from "react-slideshow-image";
+import TextAnimation from "react-animate-text";
 import 'react-slideshow-image/dist/styles.css';
 import '../style/homepage.css';
 import avatar from '../assets/images/avatar.jpeg';
@@ -9,7 +10,9 @@ export default function Homepage() {
     <div id="home" className="split-container">
       <div className="split-container-left">
         <img alt="avatar" className="avatar" src={avatar} />
-        <h1 className="author-text">Kun Hwi Ko</h1>
+        <TextAnimation>
+          <h1 className="author-text">Kun Hwi Ko</h1>
+        </TextAnimation>
         <nav>
           <ul>
             <li><a className="nav-text" href="/about">ABOUT</a></li>
