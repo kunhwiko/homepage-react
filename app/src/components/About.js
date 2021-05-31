@@ -2,9 +2,9 @@ import React from 'react';
 import TextAnimation from "react-animate-text";
 import '../style/about.css';
 
-export default function Homepage() {
+export default function About() {
   return (
-    <div id="home" className="split-container">
+    <div id="about" className="split-container">
       <div className="split-container-left-about">
         <TextAnimation>
           <h1 className="author-text-about">Kun Hwi Ko</h1>
