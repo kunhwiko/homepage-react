@@ -108,10 +108,10 @@ nav li {
 
 /* responsive changes */
 @media screen and (max-width: 992px) {
-    .author-text {
+    .author-text-home {
         font-size: 2.5rem;
     }
-    .nav-text {
+    .nav-text-home {
         font-size: 0.7rem;
     }
     .slide-text1, .slide-text2, .slide-text3, .slide-text4 {
@@ -124,13 +124,13 @@ nav li {
         margin-top: 20%;
         max-width: 20%;
     }
-    .author-text {
+    .author-text-home {
         font-size: 2.5rem;
     }
-    .split-container-left {
+    .split-container-left-home {
         width: 100%;
     }
-    .split-container-right {
+    .split-container-right-home {
         width: 100%;
     }
 }
