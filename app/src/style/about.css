@@ -55,8 +55,20 @@ nav li {
 }
 
 .nav-text-about:hover {
-    color: #666666bd;
+    color: #f07479;
     text-decoration: underline;
+}
+
+.h3-about-text {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1rem;
+    color: #000000;
+}
+
+.h4-about-text {
+    font-family: 'Montserrat', serif;
+    font-weight: normal;
+    color: #222121;
 }
 
 /* responsive changes */
