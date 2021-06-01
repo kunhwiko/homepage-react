@@ -22,7 +22,7 @@ nav li {
     min-width: 100%;
 }
 
-.split-container-left-work {
+.split-container-bottom-work {
     overflow: auto;
     overflow-x: hidden; 
     overflow-y: auto;
@@ -41,11 +41,11 @@ nav li {
     scrollbar-width: none; 
 }
 
-.split-container-left-work::-webkit-scrollbar {
+.split-container-bottom-work::-webkit-scrollbar {
     display: none;
 }
 
-.split-container-right-work {
+.split-container-top-work {
     position: -webkit-sticky;
     position: sticky;
     width: 100%;

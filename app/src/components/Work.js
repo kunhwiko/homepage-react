@@ -3,14 +3,13 @@ import TextAnimation from "react-animate-text";
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import '../style/work.css';
-import barclays from '../assets/images/barclays.jpg';
-import penn from '../assets/images/penn.png';
-import fifth from '../assets/images/fifth.jpeg';
+import { ReactComponent as Company } from '../assets/images/company.svg';
+import { ReactComponent as School } from '../assets/images/school.svg';
 
 export default function Work() {
   return (
     <div id="work" className="split-container">
-      <div className="split-container-right-work">
+      <div className="split-container-top-work">
         <TextAnimation>
           <h1 className="author-text-work">Kun Hwi Ko</h1>
         </TextAnimation>
@@ -26,14 +25,17 @@ export default function Work() {
           </ul>
         </nav>
       </div>
-      <div className="split-container-left-work">
+      <div className="split-container-bottom-work">
+        <h1>Timeline</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
             date="2011 - present"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            dateClassName="timeline-date-text"
+            iconStyle={{ background: 'rgb(33, 150, 243)' , color: '#fff' }}
+            icon={<Company />}
           >
             <h3 className="vertical-timeline-element-title">Creative Director</h3>
             <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
