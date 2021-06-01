@@ -29,12 +29,10 @@ export default function Work() {
         <h1>Timeline</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="2011 - present"
+            className="vertical-timeline-element-company"
+            date="July 2021 - Present"
             dateClassName="timeline-date-text"
-            iconStyle={{ background: 'rgb(33, 150, 243)' , color: '#fff' }}
+            iconStyle={{ background: 'rgb(207, 255, 229)' , color: '#fff' }}
             icon={<Company />}
           >
             <h3 className="vertical-timeline-element-title">Creative Director</h3>
@@ -44,14 +42,16 @@ export default function Work() {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2010 - 2011"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            className="vertical-timeline-element-school"
+            date="2011 - present"
+            dateClassName="timeline-date-text"
+            iconStyle={{ background: 'rgb(233, 30, 99)' , color: '#fff' }}
+            icon={<School />}
           >
-            <h3 className="vertical-timeline-element-title">Art Director</h3>
-            <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+            <h3 className="vertical-timeline-element-title">Creative Director</h3>
+            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
             <p>
-              Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+              Creative Direction, User Experience, Visual Design, Project Management, Team Leading
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
