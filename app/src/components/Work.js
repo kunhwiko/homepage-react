@@ -1,5 +1,7 @@
 import React from 'react';
 import TextAnimation from "react-animate-text";
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
 import '../style/work.css';
 import barclays from '../assets/images/barclays.jpg';
 import penn from '../assets/images/penn.png';
@@ -8,65 +10,99 @@ import fifth from '../assets/images/fifth.jpeg';
 export default function Work() {
   return (
     <div id="work" className="split-container">
-
       <div className="split-container-left-work">
-        <div class="timeline">
-          <div class="entry">
-            <div class="title">
-              <img alt="barclays" className="barclays" src={barclays} />
-              <h3>Moloco</h3>
-            </div>
-            <div class="body">
-              <p><b>Software Engineer</b></p>
-              <ul>
-                <li>Jun 2021-Present</li>
-              </ul>
-              <h4>I will initially be working on developing microservice APIs and ensuring scalability and failure handling on our distributed server. Very excited for this opportunity!</h4>
-            </div>
-          </div>
-          <div class="entry">
-            <div class="title">
-              <img alt="penn" className="penn" src={penn} />
-              <h3>University</h3>
-              <h3>of</h3>
-              <h3>Pennsylvania</h3>
-            </div>
-            <div class="body">
-              <p><b>Teaching Assistant</b></p>
-              <ul>
-                <li>Jan 2021-May 2021</li>
-              </ul>
-              <h4>TA for CIT 596 : Algorithms & Computation</h4>
-            </div>
-          </div>
-          <div class="entry">
-            <div class="title">
-              <img alt="barclays" className="barclays" src={barclays} />
-              <h3>Barclays</h3>
-            </div>
-            <div class="body">
-              <p><b>Summer Developer</b></p>
-              <ul>
-                <li>Jun 2020-Jul 2020</li>
-              </ul>
-              <h4>I collaborated on a Java web app that looks for violations in equity transactions. I did unit testing by querying for existing and custom made data from our SQL database.</h4>
-            </div>
-          </div>
-          <div class="entry">
-            <div class="title">
-              <img alt="fifth" className="fifth" src={fifth} />
-              <h3>Republic of</h3>
-              <h3>Korea Army</h3>
-            </div>
-            <div class="body">
-              <p><b>Financial Specialist</b></p>
-              <ul>
-                <li>Jun 2017-Mar 2019</li>
-              </ul>
-              <h4>I mainly worked on doing risk analysis for large internal investments and helping to connect the Bank of Korea with different contractors.</h4>
-            </div>
-          </div>        
-        </div>
+      <VerticalTimeline>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    date="2011 - present"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    icon={"Hello"}
+  >
+    <h3 className="vertical-timeline-element-title">Creative Director</h3>
+    <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+    <p>
+      Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date="2010 - 2011"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+
+  >
+    <h3 className="vertical-timeline-element-title">Art Director</h3>
+    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+    <p>
+      Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date="2008 - 2010"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+
+  >
+    <h3 className="vertical-timeline-element-title">Web Designer</h3>
+    <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+    <p>
+      User Experience, Visual Design
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    date="2006 - 2008"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+
+  >
+    <h3 className="vertical-timeline-element-title">Web Designer</h3>
+    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+    <p>
+      User Experience, Visual Design
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--education"
+    date="April 2013"
+    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+
+  >
+    <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
+    <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
+    <p>
+      Strategy, Social Media
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--education"
+    date="November 2012"
+    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+
+  >
+    <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
+    <h4 className="vertical-timeline-element-subtitle">Certification</h4>
+    <p>
+      Creative Direction, User Experience, Visual Design
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    className="vertical-timeline-element--education"
+    date="2002 - 2006"
+    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+
+  >
+    <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
+    <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
+    <p>
+      Creative Direction, Visual Design
+    </p>
+  </VerticalTimelineElement>
+  <VerticalTimelineElement
+    iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+
+  />
+</VerticalTimeline>
       </div>
       <div className="split-container-right-work">
         <TextAnimation>
