@@ -5,6 +5,8 @@ import 'react-vertical-timeline-component/style.min.css';
 import '../style/work.css';
 import { ReactComponent as Company } from '../assets/images/company.svg';
 import { ReactComponent as School } from '../assets/images/school.svg';
+import c3 from '../assets/images/c3.jpg';
+import penn from '../assets/images/penn.png';
 
 export default function Work() {
   return (
@@ -35,83 +37,51 @@ export default function Work() {
             iconStyle={{ background: 'rgb(207, 255, 229)' , color: '#fff' }}
             icon={<Company />}
           >
-            <h3 className="vertical-timeline-element-title">Creative Director</h3>
-            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-            <p>
-              Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-            </p>
+            <div><img className="c3" src={c3}/></div>
+            <br></br>
+            <h2 className="vertical-timeline-element-title">C3.ai</h2>
+            <h4 className="vertical-timeline-element-subtitle">Software Engineer - Platform</h4>
+            <p className="vertical-timeline-element-description">Cloud Infrastructure Team</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element-school"
-            date="2011 - present"
+            date="May 2021"
             dateClassName="timeline-date-text"
             iconStyle={{ background: 'rgb(233, 30, 99)' , color: '#fff' }}
             icon={<School />}
           >
-            <h3 className="vertical-timeline-element-title">Creative Director</h3>
-            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-            <p>
-              Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-            </p>
+            <div><img className="penn" src={penn}/></div>
+            <br></br>
+            <h2 className="vertical-timeline-element-title">University of Pennsylvania</h2>
+            <h4 className="vertical-timeline-element-subtitle">Master of Computer and Information Technology</h4>
+            <p className="vertical-timeline-element-description">Sep 2019 - May 2021</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2008 - 2010"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            className="vertical-timeline-element-company"
+            date="Jan 2021 - May 2021"
+            dateClassName="timeline-date-text"
+            iconStyle={{ background: 'rgb(207, 255, 229)' , color: '#fff' }}
+            icon={<Company />}
           >
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-            <p>
-              User Experience, Visual Design
-            </p>
+            <div><img className="penn" src={penn}/></div>
+            <br></br>
+            <h2 className="vertical-timeline-element-title">University of Pennsylvania</h2>
+            <h4 className="vertical-timeline-element-subtitle">Teaching Assistant</h4>
+            <p className="vertical-timeline-element-description">CIT 596: Algorithms & Computation</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2006 - 2008"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            className="vertical-timeline-element-company"
+            date="Jan 2021 - May 2021"
+            dateClassName="timeline-date-text"
+            iconStyle={{ background: 'rgb(207, 255, 229)' , color: '#fff' }}
+            icon={<Company />}
           >
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
-            <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-            <p>
-              User Experience, Visual Design
-            </p>
+            <div><img className="penn" src={penn}/></div>
+            <br></br>
+            <h2 className="vertical-timeline-element-title">University of Pennsylvania</h2>
+            <h4 className="vertical-timeline-element-subtitle">Teaching Assistant</h4>
+            <p className="vertical-timeline-element-description">CIT 596: Algorithms & Computation</p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            date="April 2013"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-          >
-            <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-            <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-            <p>
-              Strategy, Social Media
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            date="November 2012"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-          >
-            <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-            <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-            <p>
-              Creative Direction, User Experience, Visual Design
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            date="2002 - 2006"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-          >
-            <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-            <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-            <p>
-              Creative Direction, Visual Design
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-          />
         </VerticalTimeline>
       </div>
     </div>    

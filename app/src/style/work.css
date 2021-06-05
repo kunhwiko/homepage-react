@@ -81,6 +81,15 @@ nav li {
     text-decoration: underline;
 }
 
+.c3, .penn {
+    max-width: 20%;
+    max-height: 20%;
+}
+
+.vertical-timeline-element-subtitle, .vertical-timeline-element-description {
+    font-family: 'Lato';
+}
+
 /* responsive changes */
 @media screen and (max-width: 992px) {
     .author-text-about {
