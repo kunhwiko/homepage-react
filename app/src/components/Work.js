@@ -31,7 +31,7 @@ export default function Work() {
         </nav>
       </div>
       <div className="split-container-bottom-work">
-        <h1>Timeline</h1>
+        <h1 className="timeline-header">Timeline</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element-company"

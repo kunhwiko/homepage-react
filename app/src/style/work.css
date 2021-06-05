@@ -36,7 +36,7 @@ nav li {
     text-align: left;
     display: inline; 
     float: left; 
-    background-color: #f5f5f5;
+    background-color: #fafafa;
     -ms-overflow-style: none;  
     scrollbar-width: none; 
 }
@@ -52,7 +52,7 @@ nav li {
     height: 100vh;
     display: inline; 
     float: left;  
-    background-color: #36454F;
+    background-color: #282828;
 }
 
 .author-text-work {
@@ -77,8 +77,12 @@ nav li {
 }
 
 .nav-text-work:hover {
-    color: #f07479;
+    color: #e8e8e8;
     text-decoration: underline;
+}
+
+.timeline-header {
+    color: #ffffff;
 }
 
 .c3, .penn, .barclays, .fifth, .nyu {
