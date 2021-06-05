@@ -36,7 +36,7 @@ nav li {
     text-align: left;
     display: inline; 
     float: left; 
-    background-color: #fafafa;
+    background-color: #5085a5;
     -ms-overflow-style: none;  
     scrollbar-width: none; 
 }
@@ -82,7 +82,14 @@ nav li {
 }
 
 .timeline-header {
-    color: #ffffff;
+    color: rgb(46, 46, 46);
+    text-align: center;
+    font-family: Sacramento;
+}
+
+.timeline-date-text {
+    font-family: Cormorant;
+    font-size: 2rem;
 }
 
 .c3, .penn, .barclays, .fifth, .nyu {
@@ -90,8 +97,8 @@ nav li {
     max-height: 20%;
 }
 
-.vertical-timeline-element-subtitle, .vertical-timeline-element-description {
-    font-family: 'Lato';
+.vertical-timeline-element-title, .vertical-timeline-element-subtitle, .vertical-timeline-element-description {
+    font-family: 'Cormorant';
 }
 
 /* responsive changes */

@@ -31,13 +31,13 @@ export default function Work() {
         </nav>
       </div>
       <div className="split-container-bottom-work">
-        <h1 className="timeline-header">Timeline</h1>
+        <h1 className="timeline-header">Work & Education Timeline</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element-company"
             date="July 2021 - Present"
             dateClassName="timeline-date-text"
-            iconStyle={{ background: 'rgb(207, 255, 229)' , color: '#fff' }}
+            iconStyle={{ background: '#a8d0e6' , color: '#fff' }}
             icon={<Company />}
           >
             <div><img className="c3" src={c3}/></div>
