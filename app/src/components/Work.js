@@ -7,6 +7,9 @@ import { ReactComponent as Company } from '../assets/images/company.svg';
 import { ReactComponent as School } from '../assets/images/school.svg';
 import c3 from '../assets/images/c3.jpg';
 import penn from '../assets/images/penn.png';
+import barclays from '../assets/images/barclays.jpg';
+import fifth from '../assets/images/fifth.jpeg';
+import nyu from '../assets/images/nyu.jpg';
 
 export default function Work() {
   return (
@@ -71,16 +74,55 @@ export default function Work() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element-company"
-            date="Jan 2021 - May 2021"
+            date="Jul 2020 - Aug 2020"
             dateClassName="timeline-date-text"
             iconStyle={{ background: 'rgb(207, 255, 229)' , color: '#fff' }}
             icon={<Company />}
           >
-            <div><img className="penn" src={penn}/></div>
+            <div><img className="barclays" src={barclays}/></div>
             <br></br>
-            <h2 className="vertical-timeline-element-title">University of Pennsylvania</h2>
-            <h4 className="vertical-timeline-element-subtitle">Teaching Assistant</h4>
-            <p className="vertical-timeline-element-description">CIT 596: Algorithms & Computation</p>
+            <h2 className="vertical-timeline-element-title">Barclays</h2>
+            <h4 className="vertical-timeline-element-subtitle">Summer Developer</h4>
+            <p className="vertical-timeline-element-description">Market Surveillance Team</p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element-company"
+            date="Jun 2017 - Mar 2019"
+            dateClassName="timeline-date-text"
+            iconStyle={{ background: 'rgb(207, 255, 229)' , color: '#fff' }}
+            icon={<Company />}
+          >
+            <div><img className="fifth" src={fifth}/></div>
+            <br></br>
+            <h2 className="vertical-timeline-element-title">Republic of Korea Army</h2>
+            <h4 className="vertical-timeline-element-subtitle">Financial Specialist</h4>
+            <p className="vertical-timeline-element-description">Risk and Disbursement Management</p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element-school"
+            date="Sep 2016"
+            dateClassName="timeline-date-text"
+            iconStyle={{ background: 'rgb(233, 30, 99)' , color: '#fff' }}
+            icon={<School />}
+          >
+            <div><img className="nyu" src={nyu}/></div>
+            <br></br>
+            <h2 className="vertical-timeline-element-title">NYU Stern School of Business</h2>
+            <h4 className="vertical-timeline-element-subtitle">Master of Science in Accounting</h4>
+            <p className="vertical-timeline-element-description">May 2016 - Sep 2016</p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element-school"
+            date="May 2016"
+            dateClassName="timeline-date-text"
+            iconStyle={{ background: 'rgb(233, 30, 99)' , color: '#fff' }}
+            icon={<School />}
+          >
+            <div><img className="nyu" src={nyu}/></div>
+            <br></br>
+            <h2 className="vertical-timeline-element-title">NYU Stern School of Business</h2>
+            <h4 className="vertical-timeline-element-subtitle">Bachelor of Science in Business</h4>
+            <p className="vertical-timeline-element-description">Aug 2012 - May 2016</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
