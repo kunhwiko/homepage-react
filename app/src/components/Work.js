@@ -48,7 +48,7 @@ export default function Work() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element-school"
-            date="May 2021"
+            date="Graduation: May 2021"
             dateClassName="timeline-date-text"
             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
             icon={<School />}
@@ -57,7 +57,7 @@ export default function Work() {
             <br></br>
             <h2 className="vertical-timeline-element-title">University of Pennsylvania</h2>
             <h4 className="vertical-timeline-element-subtitle">Master of Computer and Information Technology</h4>
-            <p className="vertical-timeline-element-description">Sep 2019 - May 2021</p>
+            <p className="vertical-timeline-element-description">Attendance: Sep 2019 - May 2021</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element-company"
@@ -100,7 +100,7 @@ export default function Work() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element-school"
-            date="Sep 2016"
+            date="Graduation: Sep 2016"
             dateClassName="timeline-date-text"
             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
             icon={<School />}
@@ -109,20 +109,8 @@ export default function Work() {
             <br></br>
             <h2 className="vertical-timeline-element-title">NYU Stern School of Business</h2>
             <h4 className="vertical-timeline-element-subtitle">Master of Science in Accounting</h4>
-            <p className="vertical-timeline-element-description">May 2016 - Sep 2016</p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element-school"
-            date="May 2016"
-            dateClassName="timeline-date-text"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            icon={<School />}
-          >
-            <div><img className="nyu" src={nyu}/></div>
-            <br></br>
-            <h2 className="vertical-timeline-element-title">NYU Stern School of Business</h2>
             <h4 className="vertical-timeline-element-subtitle">Bachelor of Science in Business</h4>
-            <p className="vertical-timeline-element-description">Aug 2012 - May 2016</p>
+            <p className="vertical-timeline-element-description">Attendance: Aug 2012 - Sep 2016</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>

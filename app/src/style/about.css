@@ -107,9 +107,6 @@ nav li {
     .nav-text-about {
         font-size: 0.7rem;
     }
-    .slide-text1, .slide-text2, .slide-text3, .slide-text4 {
-        font-size: 1.5rem;
-    }
 }
 
 @media screen and (max-width: 768px) {
