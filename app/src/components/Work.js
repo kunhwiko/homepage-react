@@ -37,7 +37,7 @@ export default function Work() {
             className="vertical-timeline-element-company"
             date="July 2021 - Present"
             dateClassName="timeline-date-text"
-            iconStyle={{ background: '#a8d0e6' , color: '#fff' }}
+            iconStyle={{ background: '#10e7dc'  , color: '#fff' }}
             icon={<Company />}
           >
             <div><img className="c3" src={c3}/></div>
@@ -50,7 +50,7 @@ export default function Work() {
             className="vertical-timeline-element-school"
             date="May 2021"
             dateClassName="timeline-date-text"
-            iconStyle={{ background: 'rgb(233, 30, 99)' , color: '#fff' }}
+            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
             icon={<School />}
           >
             <div><img className="penn" src={penn}/></div>
@@ -63,7 +63,7 @@ export default function Work() {
             className="vertical-timeline-element-company"
             date="Jan 2021 - May 2021"
             dateClassName="timeline-date-text"
-            iconStyle={{ background: 'rgb(207, 255, 229)' , color: '#fff' }}
+            iconStyle={{ background: '#10e7dc', color: '#fff' }}
             icon={<Company />}
           >
             <div><img className="penn" src={penn}/></div>
@@ -76,7 +76,7 @@ export default function Work() {
             className="vertical-timeline-element-company"
             date="Jul 2020 - Aug 2020"
             dateClassName="timeline-date-text"
-            iconStyle={{ background: 'rgb(207, 255, 229)' , color: '#fff' }}
+            iconStyle={{ background: '#10e7dc', color: '#fff' }}
             icon={<Company />}
           >
             <div><img className="barclays" src={barclays}/></div>
@@ -89,7 +89,7 @@ export default function Work() {
             className="vertical-timeline-element-company"
             date="Jun 2017 - Mar 2019"
             dateClassName="timeline-date-text"
-            iconStyle={{ background: 'rgb(207, 255, 229)' , color: '#fff' }}
+            iconStyle={{ background: '#10e7dc', color: '#fff' }}
             icon={<Company />}
           >
             <div><img className="fifth" src={fifth}/></div>
@@ -102,7 +102,7 @@ export default function Work() {
             className="vertical-timeline-element-school"
             date="Sep 2016"
             dateClassName="timeline-date-text"
-            iconStyle={{ background: 'rgb(233, 30, 99)' , color: '#fff' }}
+            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
             icon={<School />}
           >
             <div><img className="nyu" src={nyu}/></div>
@@ -115,7 +115,7 @@ export default function Work() {
             className="vertical-timeline-element-school"
             date="May 2016"
             dateClassName="timeline-date-text"
-            iconStyle={{ background: 'rgb(233, 30, 99)' , color: '#fff' }}
+            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
             icon={<School />}
           >
             <div><img className="nyu" src={nyu}/></div>
