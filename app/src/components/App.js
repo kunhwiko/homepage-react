@@ -7,6 +7,7 @@ import {
 import Homepage from './Homepage';
 import About from './About';
 import Work from './Work';
+import Project from './Project';
 
 export default function App() {
   return (
@@ -32,6 +33,11 @@ export default function App() {
             exact
             path="/work"
             component={Work}
+          />
+          <Route
+            exact
+            path="/project"
+            component={Project}
           />
         </Switch>          
       </Router>
