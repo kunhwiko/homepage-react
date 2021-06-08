@@ -19,7 +19,7 @@ export default function Homepage() {
             <li><h2 className="nav-text-home">/</h2></li>
             <li><a className="nav-text-home" href="/work">WORK</a></li>
             <li><h2 className="nav-text-home">/</h2></li>
-            <li><a className="nav-text-home" href="/projects">PROJECTS</a></li>
+            <li><a className="nav-text-home" href="/project">PROJECTS</a></li>
             <li><h2 className="nav-text-home">/</h2></li>
             <li><a className="nav-text-home" href="/contact">CONTACT</a></li>
           </ul>

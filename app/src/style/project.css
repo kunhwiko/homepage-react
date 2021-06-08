@@ -22,7 +22,7 @@ nav li {
     min-width: 100%;
 }
 
-.split-container-left-about {
+.split-container-left-project {
     position: -webkit-sticky;
     position: sticky;
     width: 45%;
@@ -32,7 +32,7 @@ nav li {
     background-color: #F7484E;
 }
 
-.split-container-right-about {
+.split-container-right-project {
     overflow: auto;
     overflow-x: hidden; 
     overflow-y: auto;
@@ -50,11 +50,11 @@ nav li {
     scrollbar-width: none;  
 }
 
-.split-container-right-about::-webkit-scrollbar {
+.split-container-right-project::-webkit-scrollbar {
     display: none;
 }
 
-.author-text-about {
+.author-text-project {
     margin-top: 50%;
     margin-bottom: 0px;
     font-size: 4rem;
@@ -64,7 +64,7 @@ nav li {
     color: #ffffff;
 }
 
-.nav-text-about {
+.nav-text-project {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 0.9rem;
@@ -75,49 +75,30 @@ nav li {
     text-decoration: none;
 }
 
-.nav-text-about:hover {
+.nav-text-project:hover {
     color: #ffffff;
     text-decoration: underline;
 }
 
-.h3-about-text {
-    font-family: 'Merriweather', sans-serif;
-    font-size: 1.05rem;
-    font-weight: bold;
-    color: #000000;
-}
-
-.h4-about-text {
-    font-family: 'Montserrat', serif;
-    font-weight: normal;
-    color: #222121;
-}
-
 /* responsive changes */
 @media screen and (max-width: 992px) {
-    .author-text-about {
+    .author-text-project {
         font-size: 2.5rem;
     }
-    .h3-about-text {
-        font-size: 0.85rem;
-    }
-    .h4-about-text {
-        font-size: 0.75rem;
-    }
-    .nav-text-about {
+    .nav-text-project {
         font-size: 0.7rem;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .author-text-about {
+    .author-text-project {
         margin-top: 30%;
         font-size: 2.5rem;
     }
-    .split-container-left-about {
+    .split-container-left-project {
         width: 100%;
     }
-    .split-container-right-about {
+    .split-container-right-project {
         width: 100%;
     }
 }

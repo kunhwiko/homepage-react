@@ -15,7 +15,7 @@ export default function About() {
             <li><h2 className="nav-text-about">/</h2></li>
             <li><a className="nav-text-about" href="/work">WORK</a></li>
             <li><h2 className="nav-text-about">/</h2></li>
-            <li><a className="nav-text-about" href="/projects">PROJECTS</a></li>
+            <li><a className="nav-text-about" href="/project">PROJECTS</a></li>
             <li><h2 className="nav-text-about">/</h2></li>
             <li><a className="nav-text-about" href="/contact">CONTACT</a></li>
           </ul>
