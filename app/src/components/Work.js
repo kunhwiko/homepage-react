@@ -24,7 +24,7 @@ export default function Work() {
             <li><h2 className="nav-text-work">/</h2></li>
             <li><a className="nav-text-work" href="/about">ABOUT</a></li>
             <li><h2 className="nav-text-work">/</h2></li>
-            <li><a className="nav-text-work" href="/projects">PROJECTS</a></li>
+            <li><a className="nav-text-work" href="/project">PROJECTS</a></li>
             <li><h2 className="nav-text-work">/</h2></li>
             <li><a className="nav-text-work" href="/contact">CONTACT</a></li>
           </ul>

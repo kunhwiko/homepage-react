@@ -29,7 +29,7 @@ nav li {
     height: 100vh;
     display: inline; 
     float: left;  
-    background-color: #bee7d1;
+    background-color: #b0e1c7;
 }
 
 .split-container-right-project {
@@ -167,5 +167,6 @@ nav li {
     transition: 0.8s;
 }
 .overlay-button:hover {
-    color: #F7484E;
+    color: rgb(50, 141, 85);
+    text-decoration: underline;
 }

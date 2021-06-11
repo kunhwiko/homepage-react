@@ -12,9 +12,9 @@ export default function Project() {
         </TextAnimation>
         <nav>
           <ul>
-          <li><a className="nav-text-project" href="/about">ABOUT</a></li>
+          <li><a className="nav-text-project" href="/home">HOME</a></li>
             <li><h2 className="nav-text-project">/</h2></li>
-            <li><a className="nav-text-project" href="/home">HOME</a></li>
+            <li><a className="nav-text-project" href="/about">ABOUT</a></li>
             <li><h2 className="nav-text-project">/</h2></li>
             <li><a className="nav-text-project" href="/work">WORK</a></li>
             <li><h2 className="nav-text-project">/</h2></li>
