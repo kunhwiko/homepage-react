@@ -16,7 +16,7 @@ export default function Work() {
     <div id="work" className="split-container">
       <div className="split-container-top-work">
         <TextAnimation>
-          <h1 className="author-text-work">Kun Hwi Ko</h1>
+          <h1 className="author-text-work">Work Experience</h1>
         </TextAnimation>
         <nav>
           <ul>

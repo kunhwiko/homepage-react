@@ -7,7 +7,7 @@ export default function About() {
     <div id="about" className="split-container">
       <div className="split-container-left-about">
         <TextAnimation>
-          <h1 className="author-text-about">Kun Hwi Ko</h1>
+          <h1 className="author-text-about">About Me</h1>
         </TextAnimation>
         <nav>
           <ul>

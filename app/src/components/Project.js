@@ -8,7 +8,7 @@ export default function Project() {
     <div id="project" className="split-container">
       <div className="split-container-left-project">
         <TextAnimation>
-          <h1 className="author-text-project">Kun Hwi Ko</h1>
+          <h1 className="author-text-project">Personal Projects</h1>
         </TextAnimation>
         <nav>
           <ul>
