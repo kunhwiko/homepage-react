@@ -24,7 +24,7 @@ export default function Project() {
       </div>
       <div className="split-container-right-project">
         <div class="mini-row-container" style={{backgroundImage: "url(" + Movie + ")"}}>
-          <div class="overlay1 fade1">
+          <div class="overlay fade1">
             <h2 class="overlay-text">Movie Recommendation</h2>
             <h3 class="overlay-text2">Python</h3>
             <a class="button1" href="https://www.github.com/kunhwiko/movie-recommend"></a>
@@ -33,7 +33,7 @@ export default function Project() {
           </div>
         </div>
         <div class="mini-row-container" style={{backgroundImage: "url(" + Movie + ")"}}>
-          <div class="overlay1 fade1">
+          <div class="overlay fade1">
             <h2 class="overlay-text">Movie Recommendation</h2>
             <h3 class="overlay-text2">Python</h3>
             <a class="button1" href="https://www.github.com/kunhwiko/movie-recommend"></a>
@@ -42,7 +42,7 @@ export default function Project() {
           </div>
         </div>
         <div class="mini-row-container" style={{backgroundImage: "url(" + Movie + ")"}}>
-          <div class="overlay1 fade1">
+          <div class="overlay fade1">
             <h2 class="overlay-text">Movie Recommendation</h2>
             <h3 class="overlay-text2">Python</h3>
             <a class="button1" href="https://www.github.com/kunhwiko/movie-recommend"></a>

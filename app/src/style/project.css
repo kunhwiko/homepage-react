@@ -107,10 +107,64 @@ nav li {
     width: 100%;
     background-size: 100% 100%;
 }
-
 .mini-row-container:hover .fade1 {
     height: 55%;
 }
-.mini-row-container:hover .overlay1 {
+.mini-row-container:hover .overlay {
     opacity: 0.9;
+}
+
+.overlay {
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background: #eee;
+}
+.fade1 {
+    width: 100%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    background-color: #1f1f1f;
+}
+
+.overlay-text {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Sacramento', cursive;
+}
+.overlay-text2 {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Montserrat';
+}
+.overlay-text3 {
+    color: white;
+    text-align: left;
+    padding-top: 7%;
+    padding-left: 6%;
+    padding-right: 4%;
+    font-size: 1rem;
+    font-family: 'Montserrat';
+}
+
+.button1 {
+    color: #fff;
+    background: none;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    padding: 0;
+    border: none;
+    font-size: 1.5rem;
+    line-height: 2;
+    font-family: "Montserrat";
+    cursor: pointer;
+    margin: 10px; 
+    transition: 0.8s;
+}
+.button1:hover {
+    color: #F7484E;
 }
