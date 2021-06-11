@@ -99,9 +99,6 @@ nav li {
     }
 }
 
-
-
-
 .mini-row-container {
     height: 55%;
     width: 100%;
@@ -111,7 +108,7 @@ nav li {
     height: 55%;
 }
 .mini-row-container:hover .overlay {
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 .overlay {
@@ -130,28 +127,32 @@ nav li {
 
 .overlay-text {
     color: white;
-    text-align: center;
     font-size: 2rem;
+    padding-top: 7%;
+    padding-left: 6%;
+    padding-right: 4%;
+    text-align: center;
     font-family: 'Sacramento', cursive;
 }
 .overlay-text2 {
     color: white;
-    text-align: center;
     font-size: 1rem;
+    padding-left: 6%;
+    padding-right: 4%;
+    text-align: center;
     font-family: 'Montserrat';
 }
 .overlay-text3 {
     color: white;
-    text-align: left;
-    padding-top: 7%;
+    padding-top: 6%;
     padding-left: 6%;
     padding-right: 4%;
     font-size: 1rem;
     font-family: 'Montserrat';
 }
-
-.button1 {
+.overlay-button {
     color: #fff;
+    text-decoration: none;
     background: none;
     position: absolute;
     top: 45%;
@@ -165,6 +166,6 @@ nav li {
     margin: 10px; 
     transition: 0.8s;
 }
-.button1:hover {
+.overlay-button:hover {
     color: #F7484E;
 }
