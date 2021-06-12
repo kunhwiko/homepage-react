@@ -2,6 +2,7 @@ import React from 'react';
 import TextAnimation from "react-animate-text";
 import '../style/project.css';
 import House from '../assets/images/house.jpg';
+import Music from '../assets/images/music.jpg';
 import Movie from '../assets/images/movie.jpg';
 
 export default function Project() {
@@ -30,6 +31,14 @@ export default function Project() {
             <h3 class="overlay-text2">React.js, Node.js, MySQL</h3>
             <a class="overlay-button" href="https://www.github.com/kunhwiko/crimebnb">>></a>
             <h4 class="overlay-text3">Make your trip safer and smarter by viewing crime trends near Airbnb listings.</h4>
+          </div>
+        </div>
+        <div class="mini-row-container" style={{backgroundImage: "url(" + Music + ")"}}>
+          <div class="overlay fade2">
+            <h2 class="overlay-text">Pennify</h2>
+            <h3 class="overlay-text2">Python</h3>
+            <a class="overlay-button" href="https://www.github.com/kunhwiko/pennify">>></a>
+            <h4 class="overlay-text3">Stream your music collection to others with our custom designed protocol.</h4>
           </div>
         </div>
       </div>
