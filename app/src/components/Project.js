@@ -5,6 +5,7 @@ import House from '../assets/images/house.jpg';
 import Music from '../assets/images/music.jpg';
 import Homepage from '../assets/images/homepage.jpg';
 import Movie from '../assets/images/movie.jpg';
+import Note from '../assets/images/note.jpg';
 
 export default function Project() {
   return (
@@ -56,6 +57,14 @@ export default function Project() {
             <h3 class="overlay-text2">Python</h3>
             <a class="overlay-button" href="https://www.github.com/kunhwiko/newvies">>></a>
             <h4 class="overlay-text3">Find movies to watch tonight by finding preferences of similar users with our state of the art AI.</h4>
+          </div>
+        </div>
+        <div class="mini-row-container" style={{backgroundImage: "url(" + Note + ")"}}>
+          <div class="overlay fade5">
+            <h2 class="overlay-text">Definitely Not Keep</h2>
+            <h3 class="overlay-text2">React.js, HTML5, CSS3</h3>
+            <a class="overlay-button" href="https://www.github.com/kunhwiko/keep">>></a>
+            <h4 class="overlay-text3">Clone of Google Keep Notes.</h4>
           </div>
         </div>
       </div>
