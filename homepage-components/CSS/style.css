@@ -276,7 +276,7 @@ and (max-width : 990px)
     color: white;
     text-align: center;
     font-size: 1rem;
-    font-family: 'Montserrat';
+    font-family: 'Merriweather';
 }
 .overlay-text3 {
     color: white;
@@ -285,7 +285,7 @@ and (max-width : 990px)
     padding-left: 6%;
     padding-right: 4%;
     font-size: 1rem;
-    font-family: 'Montserrat';
+    font-family: 'Merriweather';
 }
 
 .button1 {

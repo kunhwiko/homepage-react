@@ -41,6 +41,14 @@ export default function Project() {
             <h4 class="overlay-text3">Stream your music collection to others with our custom designed protocol.</h4>
           </div>
         </div>
+        <div class="mini-row-container" style={{backgroundImage: "url(" + Movie + ")"}}>
+          <div class="overlay fade3">
+            <h2 class="overlay-text">Newvies</h2>
+            <h3 class="overlay-text2">Python</h3>
+            <a class="overlay-button" href="https://www.github.com/kunhwiko/newvies">>></a>
+            <h4 class="overlay-text3">Find movies to watch tonight by finding preferences of similar users with our state of the art AI.</h4>
+          </div>
+        </div>
       </div>
     </div>    
   );
