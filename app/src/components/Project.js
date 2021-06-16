@@ -8,6 +8,7 @@ import Movie from '../assets/images/movie.jpg';
 import Note from '../assets/images/note.jpg';
 import Tetris from '../assets/images/tetris.jpg';
 import Stock from '../assets/images/stock.jpg';
+import Sudoku from '../assets/images/sudoku.jpg';
 
 export default function Project() {
   return (
@@ -83,6 +84,14 @@ export default function Project() {
             <h3 class="overlay-text2">Python, Flutter, Dart</h3>
             <a class="overlay-button" href="https://www.github.com/kunhwiko/stock-bot">>></a>
             <h4 class="overlay-text3">Display financial information and significant price changes of most gaining stocks in real time.</h4>
+          </div>
+        </div>
+        <div class="mini-row-container" style={{backgroundImage: "url(" + Sudoku + ")"}}>
+          <div class="overlay fade8">
+            <h2 class="overlay-text">Sudoku Solver</h2>
+            <h3 class="overlay-text2">C++, Qt</h3>
+            <a class="overlay-button" href="https://www.github.com/kunhwiko/sudoku">>></a>
+            <h4 class="overlay-text3">The app that everyone seems to have built, but now in C++.</h4>
           </div>
         </div>
       </div>
