@@ -6,6 +6,7 @@ import Music from '../assets/images/music.jpg';
 import Homepage from '../assets/images/homepage.jpg';
 import Movie from '../assets/images/movie.jpg';
 import Note from '../assets/images/note.jpg';
+import Tetris from '../assets/images/tetris.jpg';
 
 export default function Project() {
   return (
@@ -65,6 +66,14 @@ export default function Project() {
             <h3 class="overlay-text2">React.js, HTML5, CSS3</h3>
             <a class="overlay-button" href="https://www.github.com/kunhwiko/keep">>></a>
             <h4 class="overlay-text3">Clone of Google Keep Notes.</h4>
+          </div>
+        </div>
+        <div class="mini-row-container" style={{backgroundImage: "url(" + Tetris + ")"}}>
+          <div class="overlay fade6">
+            <h2 class="overlay-text">Swiftris</h2>
+            <h3 class="overlay-text2">Swift</h3>
+            <a class="overlay-button" href="https://www.github.com/kunhwiko/swiftris">>></a>
+            <h4 class="overlay-text3">Bringing more of the Tetris love to iOS.</h4>
           </div>
         </div>
       </div>
