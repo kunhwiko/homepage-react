@@ -7,6 +7,7 @@ import Homepage from '../assets/images/homepage.jpg';
 import Movie from '../assets/images/movie.jpg';
 import Note from '../assets/images/note.jpg';
 import Tetris from '../assets/images/tetris.jpg';
+import Stock from '../assets/images/stock.jpg';
 
 export default function Project() {
   return (
@@ -71,9 +72,17 @@ export default function Project() {
         <div class="mini-row-container" style={{backgroundImage: "url(" + Tetris + ")"}}>
           <div class="overlay fade6">
             <h2 class="overlay-text">Swiftris</h2>
-            <h3 class="overlay-text2">Swift</h3>
+            <h3 class="overlay-text2">Swift, SwiftUI</h3>
             <a class="overlay-button" href="https://www.github.com/kunhwiko/swiftris">>></a>
             <h4 class="overlay-text3">Bringing more of the Tetris love to iOS.</h4>
+          </div>
+        </div>
+        <div class="mini-row-container" style={{backgroundImage: "url(" + Stock + ")"}}>
+          <div class="overlay fade7">
+            <h2 class="overlay-text">Stock Bot</h2>
+            <h3 class="overlay-text2">Python, Flutter, Dart</h3>
+            <a class="overlay-button" href="https://www.github.com/kunhwiko/stock-bot">>></a>
+            <h4 class="overlay-text3">Display financial information and significant price changes of most gaining stocks in real time.</h4>
           </div>
         </div>
       </div>
