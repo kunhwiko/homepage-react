@@ -9,6 +9,7 @@ import Note from '../assets/images/note.jpg';
 import Tetris from '../assets/images/tetris.jpg';
 import Stock from '../assets/images/stock.jpg';
 import Sudoku from '../assets/images/sudoku.jpg';
+import News from '../assets/images/news.jpg';
 
 export default function Project() {
   return (
@@ -92,6 +93,14 @@ export default function Project() {
             <h3 class="overlay-text2">C++, Qt</h3>
             <a class="overlay-button" href="https://www.github.com/kunhwiko/sudoku">>></a>
             <h4 class="overlay-text3">The app that everyone seems to have built, but now in C++.</h4>
+          </div>
+        </div>
+        <div class="mini-row-container" style={{backgroundImage: "url(" + News + ")"}}>
+          <div class="overlay fade9">
+            <h2 class="overlay-text">News Search</h2>
+            <h3 class="overlay-text2">Java</h3>
+            <a class="overlay-button" href="https://www.github.com/kunhwiko/news-search">>></a>
+            <h4 class="overlay-text3">Type some keywords, let the search engine find you the most relevant news.</h4>
           </div>
         </div>
       </div>
