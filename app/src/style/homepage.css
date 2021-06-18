@@ -121,10 +121,11 @@ nav li {
 
 @media screen and (max-width: 768px) {
     .avatar {
-        margin-top: 20%;
+        margin-top: 10%;
         max-width: 20%;
     }
     .author-text-home {
+        margin-top: 5%;
         font-size: 2.5rem;
     }
     .split-container-left-home {
