@@ -76,29 +76,6 @@ nav li {
     text-decoration: underline;
 }
 
-/* responsive changes */
-@media screen and (max-width: 992px) {
-    .author-text-project {
-        font-size: 2.5rem;
-    }
-    .nav-text-project {
-        font-size: 0.7rem;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .author-text-project {
-        margin-top: 30%;
-        font-size: 2.5rem;
-    }
-    .split-container-left-project {
-        width: 100%;
-    }
-    .split-container-right-project {
-        width: 100%;
-    }
-}
-
 .mini-row-container {
     height: 55%;
     width: 100%;
@@ -225,4 +202,60 @@ nav li {
 .overlay-button:hover {
     color: #ffcc4d;
     text-decoration: underline;
+}
+
+/* responsive changes */
+@media screen and (max-width: 992px) {
+    .author-text-project {
+        font-size: 2.5rem;
+    }
+    .nav-text-project {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .author-text-project {
+        margin-top: 30%;
+        font-size: 2.5rem;
+    }
+    .split-container-left-project {
+        width: 100%;
+    }
+    .split-container-right-project {
+        width: 100%;
+    }
+    .mini-row-container {
+        height: 75%;
+    }
+    .mini-row-container:hover .fade1, .mini-row-container:hover .fade2, .mini-row-container:hover .fade3, .mini-row-container:hover .fade4, .mini-row-container:hover .fade5, .mini-row-container:hover .fade6, .mini-row-container:hover .fade7, .mini-row-container:hover .fade8, .mini-row-container:hover .fade9 {
+        height: 75%;
+    }
+    .fade1 {
+        top: 0; 
+    }
+    .fade2 {
+        top: 75%;
+    }
+    .fade3 {
+        top: 150%;
+    }
+    .fade4 {
+        top: 225%;
+    }
+    .fade5 {
+        top: 300%;
+    }
+    .fade6 {
+        top: 375%;
+    }
+    .fade7 {
+        top: 450%;
+    }
+    .fade8 {
+        top: 525%;
+    }
+    .fade9 {
+        top: 600%;
+    }
 }
