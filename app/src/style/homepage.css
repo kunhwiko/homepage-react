@@ -114,7 +114,58 @@ nav li {
     height: 100vh;
 }
 
+.slide-1-background {
+    background-image: url("../assets/images/home1.jpg");
+}
+
+.slide-2-background {
+    background-image: url("../assets/images/home2.jpg");
+}
+
+.slide-3-background {
+    background-image: url("../assets/images/home3.jpg");
+}
+
+.slide-4-background {
+    background-image: url("../assets/images/home4.jpg");
+}
+
 /* responsive changes */
+@media screen and (max-width: 992px) {
+    .avatar {
+        margin-top: 50%;
+    }
+    .author-text-home {
+        font-size: 2.5rem;
+    }
+    .nav-text-home {
+        font-size: 0.7rem;
+    }
+    .slide-text1, .slide-text2, .slide-text3, .slide-text4 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .avatar {
+        margin-top: 30%;
+        max-width: 30%;
+    }
+    .author-text-home {
+        margin-top: 5%;
+        font-size: 2.5rem;
+    }
+    .split-container-left-home {
+        width: 100%;
+    }
+    .split-container-right-home {
+        width: 100%;
+    }
+    .slide-4-background {
+        background-image: url("../assets/images/note.jpg");
+    }
+}
+
 @media screen and (max-height: 480px) {
     .avatar {
         margin-top: 20%;
@@ -132,7 +183,7 @@ nav li {
     }
 }
 
-@media screen and (max-height: 340px) {
+@media screen and (max-height: 350px) {
     .split-container-left-home {
         width: 100%;
         height: 100vh;
@@ -141,6 +192,7 @@ nav li {
     }
     .split-container-right-home {
         width: 0%;
+        height: 0%;
     }
     .avatar {
         margin-top: 10%;
@@ -155,34 +207,6 @@ nav li {
     }
 }
 
-@media screen and (max-width: 992px) {
-    .author-text-home {
-        font-size: 2.5rem;
-    }
-    .nav-text-home {
-        font-size: 0.7rem;
-    }
-    .slide-text1, .slide-text2, .slide-text3, .slide-text4 {
-        font-size: 1.5rem;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .avatar {
-        margin-top: 10%;
-        max-width: 20%;
-    }
-    .author-text-home {
-        margin-top: 5%;
-        font-size: 2.5rem;
-    }
-    .split-container-left-home {
-        width: 100%;
-    }
-    .split-container-right-home {
-        width: 100%;
-    }
-}
 
 
 

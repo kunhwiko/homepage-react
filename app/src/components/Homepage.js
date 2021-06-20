@@ -28,22 +28,22 @@ export default function Homepage() {
       <div className="split-container-right-home">
         <Slide>
           <div className="each-slide">
-            <div style={{'backgroundImage': 'url(assets/images/home1.jpg)'}}>
+            <div className="slide-1-background">
             <h3 className="slide-text1">Software Engineer in Silicon Valley</h3>
             </div>
           </div>
           <div className="each-slide">
-            <div style={{'backgroundImage': 'url(assets/images/home2.jpg)'}}>
+            <div className="slide-2-background">
               <h1 className="slide-text2">Cloud Infrastructure Team</h1>
             </div>
           </div>
           <div className="each-slide">
-            <div style={{'backgroundImage': 'url(assets/images/home3.jpg)'}}>
+            <div className="slide-3-background">
               <h1 className="slide-text3">Stock Investor</h1>
             </div>
           </div>
           <div className="each-slide">
-            <div style={{'backgroundImage': 'url(assets/images/home4.jpg)'}}>
+            <div className="slide-4-background">
               <h1 className="slide-text4">Cycling Enthusiast</h1>
             </div>
           </div>
