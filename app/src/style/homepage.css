@@ -161,8 +161,21 @@ nav li {
     .split-container-right-home {
         width: 100%;
     }
+    .slide-2-background {
+        background-image: url("../assets/images/home2-2.jpg");
+    }
+    .slide-text3 {
+        margin-bottom: 50%;
+        margin-right: 40%;
+    }
+    .slide-text1, .slide-text2, .slide-text3, .slide-text4 {
+        font-size: 1.8rem;
+    }
+    .slide-3-background {
+        background-image: url("../assets/images/home3-2.jpg");
+    }
     .slide-4-background {
-        background-image: url("../assets/images/note.jpg");
+        background-image: url("../assets/images/home4-2.jpg");
     }
 }
 
