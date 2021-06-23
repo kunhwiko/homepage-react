@@ -127,6 +127,49 @@ nav li {
     }
 }
 
+/* responsive changes */
+@media screen and (max-width: 990px) {
+    .author-text-about {
+        font-size: 2.5rem;
+    }
+    .h3-about-text {
+        font-size: 0.85rem;
+    }
+    .h4-about-text {
+        font-size: 0.75rem;
+    }
+    .nav-text-about {
+        font-size: 0.7rem;
+    }
+    .split-container-left-home {
+        width: 100%;
+    }
+    .split-container-right-home {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-height: 480px) {
+    .avatar {
+        margin-top: 5%;
+        max-width: 20%;
+    }
+    .author-text-home {
+        margin-top: 2%;
+        font-size: 3rem;
+    }
+    .nav-text-home {
+        font-size: 0.8rem;
+    }
+    .split-container-left-home {
+        width: 100%;
+    }
+    .split-container-right-home {
+        width: 0%;
+    }
+}
+
 
 
 
