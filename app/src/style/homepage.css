@@ -23,10 +23,18 @@ nav li {
 }
 
 .split-container-left-home {
+    overflow: auto;
+    overflow-x: hidden; 
+    overflow-y: auto;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
     width: 30%;
     height: 100vh;
     display: inline; 
     float: left;  
+}
+.split-container-left-home::-webkit-scrollbar {
+    display: none;
 }
 
 .split-container-right-home {
@@ -34,6 +42,9 @@ nav li {
     height: 100vh;
     display: inline; 
     float: right;  
+}
+.split-container-right-home::-webkit-scrollbar {
+    display: none;
 }
 
 .avatar {
@@ -65,7 +76,6 @@ nav li {
     color: #545454;
     text-decoration: none;
 }
-
 .nav-text-home:hover {
     color: #545454;
     text-decoration: underline;
@@ -73,6 +83,13 @@ nav li {
 
 .each-slide {
     height: 100%;
+}
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 100vh;
 }
 
 .slide-text1 {
@@ -104,14 +121,6 @@ nav li {
     font-size: 2rem;
     font-family: 'Cormorant';
     color: #ffffff;
-}
-
-.each-slide > div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-size: cover;
-    height: 100vh;
 }
 
 .slide-1-background {

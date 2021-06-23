@@ -23,19 +23,27 @@ nav li {
 }
 
 .split-container-left-about {
-    position: -webkit-sticky;
-    position: sticky;
+    overflow: auto;
+    overflow-x: hidden; 
+    overflow-y: auto;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
     width: 45%;
     height: 100vh;
     display: inline; 
     float: left;  
     background-color: #F7484E;
 }
+.split-container-left-about::-webkit-scrollbar {
+    display: none;
+}
 
 .split-container-right-about {
     overflow: auto;
     overflow-x: hidden; 
     overflow-y: auto;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
     position: relative;
     padding-top: 4%;
     padding-left: 7%;
@@ -46,10 +54,7 @@ nav li {
     text-align: left;
     display: inline; 
     float: left; 
-    -ms-overflow-style: none;  
-    scrollbar-width: none;  
 }
-
 .split-container-right-about::-webkit-scrollbar {
     display: none;
 }
