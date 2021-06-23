@@ -133,11 +133,11 @@ nav li {
 /* responsive changes */
 @media screen and (max-width: 990px) {
     .avatar {
-        margin-top: 30%;
+        margin-top: 10%;
         max-width: 30%;
     }
     .author-text-home {
-        margin-top: 5%;
+        margin-top: 2%;
         font-size: 2.5rem;
     }
     .nav-text-home {
@@ -150,7 +150,7 @@ nav li {
         width: 100%;
     }
     .slide-text1, .slide-text2, .slide-text3, .slide-text4 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     .slide-2-background {
         background-image: url("../assets/images/home2-2.jpg");
@@ -168,7 +168,7 @@ nav li {
 }
 
 
-@media screen and (max-height: 640px) {
+@media screen and (max-height: 480px) {
     .avatar {
         margin-top: 5%;
         max-width: 20%;
