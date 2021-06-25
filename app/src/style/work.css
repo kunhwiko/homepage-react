@@ -104,7 +104,6 @@ nav li {
     font-family: 'Cormorant';
 }
 
-
 @media screen and (max-width: 990px) {
     .author-text-work {
         margin-top: 30%;
@@ -118,7 +117,6 @@ nav li {
 @media screen and (max-height: 480px) {
     .author-text-work {
         margin-top: 10%;
-        font-size: 3rem;
     }
 }
 
