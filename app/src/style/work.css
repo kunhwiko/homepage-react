@@ -100,19 +100,16 @@ nav li {
     font-family: 'Cormorant';
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 990px) {
     .author-text-work {
         margin-top: 30%;
         font-size: 2.5rem;
     }
-    .split-container-left-about {
-        width: 100%;
-    }
-    .split-container-right-about {
-        width: 100%;
+    .nav-text-home {
+        font-size: 0.7rem;
     }
 }
-
 
 
 
