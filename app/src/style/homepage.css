@@ -178,10 +178,6 @@ nav li {
 
 
 @media screen and (max-height: 480px) {
-    .avatar {
-        margin-top: 5%;
-        max-width: 20%;
-    }
     .author-text-home {
         margin-top: 2%;
         font-size: 3rem;

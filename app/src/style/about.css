@@ -99,74 +99,46 @@ nav li {
 }
 
 /* responsive changes */
-@media screen and (max-width: 992px) {
-    .author-text-about {
-        font-size: 2.5rem;
-    }
-    .h3-about-text {
-        font-size: 0.85rem;
-    }
-    .h4-about-text {
-        font-size: 0.75rem;
-    }
-    .nav-text-about {
-        font-size: 0.7rem;
-    }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 990px) {
     .author-text-about {
         margin-top: 30%;
         font-size: 2.5rem;
     }
+    .nav-text-about {
+        font-size: 0.7rem;
+    }
     .split-container-left-about {
         width: 100%;
+    }
+    .h3-about-text {
+        font-size: 0.95rem;
+    }
+    .h4-about-text {
+        font-size: 0.85rem;
     }
     .split-container-right-about {
         width: 100%;
     }
 }
 
-/* responsive changes */
-@media screen and (max-width: 990px) {
-    .author-text-about {
-        font-size: 2.5rem;
-    }
-    .h3-about-text {
-        font-size: 0.85rem;
-    }
-    .h4-about-text {
-        font-size: 0.75rem;
-    }
-    .nav-text-about {
-        font-size: 0.7rem;
-    }
-    .split-container-left-home {
-        width: 100%;
-    }
-    .split-container-right-home {
-        width: 100%;
-    }
-}
-
 
 @media screen and (max-height: 480px) {
-    .avatar {
-        margin-top: 5%;
-        max-width: 20%;
-    }
-    .author-text-home {
-        margin-top: 2%;
+    .author-text-about {
+        margin-top: 15%;
         font-size: 3rem;
     }
-    .nav-text-home {
+    .nav-text-about {
         font-size: 0.8rem;
     }
-    .split-container-left-home {
+    .split-container-left-about {
         width: 100%;
     }
-    .split-container-right-home {
+    .split-container-right-about {
         width: 0%;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        padding-right: 0%;
+        padding-left: 0%;
     }
 }
 
