@@ -31,7 +31,7 @@ export default function About() {
         <h4 class="h4-about-text">I am fortunate enough to have found something I truly enjoy doing and am proud to be an engineer. I am also fortunate to have met extraordinary people during my journey. Don't ever let change get the best of you.</h4>
         <br></br>
         <h3 class="h3-about-text"><b>Investing in Stocks and Cycling</b></h3>
-        <h4 class="h4-about-text">I like to research and learn about different markets, businesses, and stocks when I have time. Currently, I am keeping an open eye out on the EV market and cryptocurrency.</h4>
+        <h4 class="h4-about-text">I like to research and learn about different markets, businesses, and stocks when I have time. Currently, I am keeping an open eye out on the EV market and the casino industry.</h4>
         <h4 class="h4-about-text">As a short breather, I enjoy going for a ride on my bike. Usually, I don't have a particular destination in mind, I just go wherever the wind takes me.</h4>
       </div>
     </div>    
