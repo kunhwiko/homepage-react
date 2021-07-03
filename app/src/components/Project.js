@@ -44,7 +44,7 @@ export default function Project() {
             <h2 class="overlay-text">Pennify</h2>
             <h3 class="overlay-text2">Python</h3>
             <a class="overlay-button" href="https://www.github.com/kunhwiko/pennify">>></a>
-            <h4 class="overlay-text3">Stream your music collection to others with our custom designed protocol.</h4>
+            <h4 class="overlay-text3">Stream your music collection to others with this custom designed protocol.</h4>
           </div>
         </div>
         <div class="mini-row-container" style={{backgroundImage: "url(" + Homepage + ")"}}>
@@ -52,7 +52,7 @@ export default function Project() {
             <h2 class="overlay-text">Homepage</h2>
             <h3 class="overlay-text2">React.js, HTML5, CSS3</h3>
             <a class="overlay-button" href="https://www.github.com/kunhwiko/homepage-react">>></a>
-            <h4 class="overlay-text3">This amazing homepage is made in React and open source.</h4>
+            <h4 class="overlay-text3">This amazing homepage is made in React and is open source.</h4>
           </div>
         </div>
         <div class="mini-row-container" style={{backgroundImage: "url(" + Movie + ")"}}>
@@ -60,7 +60,7 @@ export default function Project() {
             <h2 class="overlay-text">Newvies</h2>
             <h3 class="overlay-text2">Python</h3>
             <a class="overlay-button" href="https://www.github.com/kunhwiko/newvies">>></a>
-            <h4 class="overlay-text3">Find movies to watch tonight by finding preferences of similar users with our state of the art AI.</h4>
+            <h4 class="overlay-text3">Find movies to watch tonight by using preferences of similar users with this state of the art ML model.</h4>
           </div>
         </div>
         <div class="mini-row-container" style={{backgroundImage: "url(" + Note + ")"}}>
@@ -68,7 +68,7 @@ export default function Project() {
             <h2 class="overlay-text">Definitely Not Keep</h2>
             <h3 class="overlay-text2">React.js, HTML5, CSS3</h3>
             <a class="overlay-button" href="https://www.github.com/kunhwiko/keep">>></a>
-            <h4 class="overlay-text3">Clone of Google Keep Notes.</h4>
+            <h4 class="overlay-text3">Beautiful clone of Google Keep Notes.</h4>
           </div>
         </div>
         <div class="mini-row-container" style={{backgroundImage: "url(" + Tetris + ")"}}>

@@ -23,13 +23,19 @@ nav li {
 }
 
 .split-container-left-project {
-    position: -webkit-sticky;
-    position: sticky;
+    overflow: auto;
+    overflow-x: hidden; 
+    overflow-y: auto;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
     width: 45%;
     height: 100vh;
     display: inline; 
     float: left;  
     background-color: #ffcc4d;
+}
+.split-container-left-project::-webkit-scrollbar {
+    display: none;
 }
 
 .split-container-right-project {
@@ -41,11 +47,10 @@ nav li {
     height: 100vh;
     text-align: left;
     display: inline; 
-    float: left; 
+    float: right; 
     -ms-overflow-style: none;  
     scrollbar-width: none;  
 }
-
 .split-container-right-project::-webkit-scrollbar {
     display: none;
 }
@@ -70,7 +75,6 @@ nav li {
     color: #ffffff;
     text-decoration: none;
 }
-
 .nav-text-project:hover {
     color: #ffffff;
     text-decoration: underline;
@@ -205,12 +209,22 @@ nav li {
 }
 
 /* responsive changes */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 990px) {
     .author-text-project {
+        margin-top: 30%;
         font-size: 2.5rem;
     }
-    .nav-text-project {
+    .nav-text-about {
         font-size: 0.7rem;
+    }
+    .split-container-left-project {
+        width: 100%;
+    }
+    .split-container-right-project {
+        width: 100%;
+    }
+    .mini-row-container {
+        width: 100%;
     }
 }
 
