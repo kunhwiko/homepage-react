@@ -224,22 +224,6 @@ nav li {
         width: 100%;
     }
     .mini-row-container {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .author-text-project {
-        margin-top: 30%;
-        font-size: 2.5rem;
-    }
-    .split-container-left-project {
-        width: 100%;
-    }
-    .split-container-right-project {
-        width: 100%;
-    }
-    .mini-row-container {
         height: 75%;
     }
     .mini-row-container:hover .fade1, .mini-row-container:hover .fade2, .mini-row-container:hover .fade3, .mini-row-container:hover .fade4, .mini-row-container:hover .fade5, .mini-row-container:hover .fade6, .mini-row-container:hover .fade7, .mini-row-container:hover .fade8, .mini-row-container:hover .fade9 {
