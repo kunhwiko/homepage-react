@@ -214,7 +214,7 @@ nav li {
         margin-top: 30%;
         font-size: 2.5rem;
     }
-    .nav-text-about {
+    .nav-text-project {
         font-size: 0.7rem;
     }
     .split-container-left-project {
@@ -222,39 +222,6 @@ nav li {
     }
     .split-container-right-project {
         width: 100%;
-    }
-    .mini-row-container {
-        height: 65%;
-    }
-    .mini-row-container:hover .fade1, .mini-row-container:hover .fade2, .mini-row-container:hover .fade3, .mini-row-container:hover .fade4, .mini-row-container:hover .fade5, .mini-row-container:hover .fade6, .mini-row-container:hover .fade7, .mini-row-container:hover .fade8, .mini-row-container:hover .fade9 {
-        height: 65%;
-    }
-    .fade1 {
-        top: 0; 
-    }
-    .fade2 {
-        top: 65%;
-    }
-    .fade3 {
-        top: 130%;
-    }
-    .fade4 {
-        top: 195%;
-    }
-    .fade5 {
-        top: 260%;
-    }
-    .fade6 {
-        top: 325%;
-    }
-    .fade7 {
-        top: 390%;
-    }
-    .fade8 {
-        top: 455%;
-    }
-    .fade9 {
-        top: 520%;
     }
 }
 
