@@ -257,3 +257,15 @@ nav li {
         top: 520%;
     }
 }
+
+@media screen and (max-height: 480px) {
+    .author-text-project {
+        margin-top: 10%;
+    }
+    .split-container-left-project {
+        width: 100%;
+    }
+    .split-container-right-project {
+        width: 0%;
+    }
+}
