@@ -22,7 +22,7 @@ nav li {
     min-width: 100%;
 }
 
-.split-container-left-about {
+.split-container-left-contact {
     overflow: auto;
     overflow-x: hidden; 
     overflow-y: auto;
@@ -32,13 +32,13 @@ nav li {
     height: 100vh;
     display: inline; 
     float: left;  
-    background-color: #F7484E;
+    background-color: #bee7d1;
 }
-.split-container-left-about::-webkit-scrollbar {
+.split-container-left-contact::-webkit-scrollbar {
     display: none;
 }
 
-.split-container-right-about {
+.split-container-right-contact {
     overflow: auto;
     overflow-x: hidden; 
     overflow-y: auto;
@@ -55,11 +55,11 @@ nav li {
     display: inline; 
     float: left; 
 }
-.split-container-right-about::-webkit-scrollbar {
+.split-container-right-contact::-webkit-scrollbar {
     display: none;
 }
 
-.author-text-about {
+.author-text-contact {
     margin-top: 50%;
     margin-bottom: 0px;
     font-size: 4rem;
@@ -69,7 +69,7 @@ nav li {
     color: #ffffff;
 }
 
-.nav-text-about {
+.nav-text-contact {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 0.9rem;
@@ -79,55 +79,36 @@ nav li {
     color: #ffffff;
     text-decoration: none;
 }
-.nav-text-about:hover {
+.nav-text-contact:hover {
     color: #ffffff;
     text-decoration: underline;
 }
 
-.h3-about-text {
-    font-family: 'Merriweather';
-    font-size: 1.05rem;
-    font-weight: bold;
-    color: #000000;
-}
-
-.h4-about-text {
-    font-family: 'Montserrat', serif;
-    font-weight: normal;
-    color: #222121;
-}
-
 /* responsive changes */
 @media screen and (max-width: 990px) {
-    .author-text-about {
+    .author-text-contact {
         margin-top: 30%;
         font-size: 2.5rem;
     }
-    .nav-text-about {
+    .nav-text-contact {
         font-size: 0.7rem;
     }
-    .split-container-left-about {
+    .split-container-left-contact {
         width: 100%;
     }
-    .h3-about-text {
-        font-size: 0.95rem;
-    }
-    .h4-about-text {
-        font-size: 0.85rem;
-    }
-    .split-container-right-about {
+    .split-container-right-contact {
         width: 100%;
     }
 }
 
 @media screen and (max-height: 480px) {
-    .author-text-about {
+    .author-text-contact {
         margin-top: 10%;
     }
-    .split-container-left-about {
+    .split-container-left-contact {
         width: 100%;
     }
-    .split-container-right-about {
+    .split-container-right-contact {
         width: 100%;
     }
 }
