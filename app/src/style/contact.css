@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0.5%;
+}
+
+.split-container {
+    height: 100%;
+    min-width: 100%;
+}
+
+.split-container-left-about {
+    overflow: auto;
+    overflow-x: hidden; 
+    overflow-y: auto;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+    width: 45%;
+    height: 100vh;
+    display: inline; 
+    float: left;  
+    background-color: #F7484E;
+}
+.split-container-left-about::-webkit-scrollbar {
+    display: none;
+}
+
+.split-container-right-about {
+    overflow: auto;
+    overflow-x: hidden; 
+    overflow-y: auto;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+    position: relative;
+    padding-top: 4%;
+    padding-left: 7%;
+    padding-right: 6%;
+    padding-bottom: 4%;
+    width: 55%;
+    height: 100vh;
+    text-align: left;
+    display: inline; 
+    float: left; 
+}
+.split-container-right-about::-webkit-scrollbar {
+    display: none;
+}
+
+.author-text-about {
+    margin-top: 50%;
+    margin-bottom: 0px;
+    font-size: 4rem;
+    text-align: center;
+    line-height: 2;
+    font-family: 'Sacramento';
+    color: #ffffff;
+}
+
+.nav-text-about {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 0.9rem;
+    line-height: 2;
+    font-family: 'Lato';
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav-text-about:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.h3-about-text {
+    font-family: 'Merriweather';
+    font-size: 1.05rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.h4-about-text {
+    font-family: 'Montserrat', serif;
+    font-weight: normal;
+    color: #222121;
+}
+
+/* responsive changes */
+@media screen and (max-width: 990px) {
+    .author-text-about {
+        margin-top: 30%;
+        font-size: 2.5rem;
+    }
+    .nav-text-about {
+        font-size: 0.7rem;
+    }
+    .split-container-left-about {
+        width: 100%;
+    }
+    .h3-about-text {
+        font-size: 0.95rem;
+    }
+    .h4-about-text {
+        font-size: 0.85rem;
+    }
+    .split-container-right-about {
+        width: 100%;
+    }
+}
+
+@media screen and (max-height: 480px) {
+    .author-text-about {
+        margin-top: 10%;
+    }
+    .split-container-left-about {
+        width: 100%;
+    }
+    .split-container-right-about {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+  

@@ -8,6 +8,7 @@ import Homepage from './Homepage';
 import About from './About';
 import Work from './Work';
 import Project from './Project';
+import Contact from './Contact';
 
 export default function App() {
   return (
@@ -38,6 +39,11 @@ export default function App() {
             exact
             path="/project"
             component={Project}
+          />
+          <Route
+            exact
+            path="/contact"
+            component={Contact}
           />
         </Switch>          
       </Router>
