@@ -1,6 +1,9 @@
 import React from 'react';
 import TextAnimation from "react-animate-text";
 import '../style/contact.css';
+import resume from '../assets/images/resume.png';
+import linkedin from '../assets/images/linkedin.png';
+import github from '../assets/images/github.png';
 
 export default function About() {
   return (
@@ -22,7 +25,22 @@ export default function About() {
         </nav>
       </div>
       <div className="split-container-right-contact">
-
+        <h3 className="h3-contact-text">Here are additional links that show more about me!</h3>
+        <div className="profile">
+          <div>
+            <a href="resume/Kun Hwi Ko_Resume.pdf"><img className="resume" src={resume} width={80} height={80}/></a>
+          </div>
+        </div>
+        <div className="profile">
+          <div>
+            <a href="https://www.linkedin.com/in/kunhwiko"><img className="linkedin" src={linkedin} width={80} height={80}/></a>
+          </div>
+        </div>
+        <div className="profile">
+          <div>
+            <a href="https://www.github.com/kunhwiko"><img className="github" src={github} width={80} height={80}/></a>
+          </div>
+        </div>
       </div>
     </div>    
   );
