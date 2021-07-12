@@ -28,7 +28,7 @@ export default function About() {
         <h3 className="h3-contact-text">Here are additional links that show more about me!</h3>
         <div className="profile">
           <div>
-            <a href="resume/Kun Hwi Ko_Resume.pdf"><img className="resume" src={resume} width={80} height={80}/></a>
+            <a href="../assets/resume/Kun Hwi Ko_Resume.pdf"><img className="resume" src={resume} width={80} height={80}/></a>
           </div>
         </div>
         <div className="profile">
