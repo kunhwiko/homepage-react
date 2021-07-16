@@ -1,9 +1,10 @@
 import React from 'react';
 import TextAnimation from "react-animate-text";
 import '../style/contact.css';
-import resume from '../assets/images/resume.png';
-import linkedin from '../assets/images/linkedin.png';
-import github from '../assets/images/github.png';
+import Resumefile from '../assets/resume/Kun Hwi Ko_Resume.pdf';
+import Resume from '../assets/images/resume.png';
+import Linkedin from '../assets/images/linkedin.png';
+import Github from '../assets/images/github.png';
 
 export default function About() {
   return (
@@ -28,17 +29,17 @@ export default function About() {
         <h3 className="h3-contact-text">Here are additional links that show more about me!</h3>
         <div className="profile">
           <div>
-            <a href="../assets/resume/Kun Hwi Ko_Resume.pdf"><img className="resume" src={resume} width={80} height={80}/></a>
+            <a href={Resumefile}><img className="resume" src={Resume} width={80} height={80}/></a>
           </div>
         </div>
         <div className="profile">
           <div>
-            <a href="https://www.linkedin.com/in/kunhwiko"><img className="linkedin" src={linkedin} width={80} height={80}/></a>
+            <a href="https://www.linkedin.com/in/kunhwiko"><img className="linkedin" src={Linkedin} width={80} height={80}/></a>
           </div>
         </div>
         <div className="profile">
           <div>
-            <a href="https://www.github.com/kunhwiko"><img className="github" src={github} width={80} height={80}/></a>
+            <a href="https://www.github.com/kunhwiko"><img className="github" src={Github} width={80} height={80}/></a>
           </div>
         </div>
       </div>
