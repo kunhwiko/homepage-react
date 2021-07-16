@@ -3,13 +3,13 @@ import { Slide } from "react-slideshow-image";
 import TextAnimation from "react-animate-text";
 import 'react-slideshow-image/dist/styles.css';
 import '../style/homepage.css';
-import avatar from '../assets/images/avatar.jpeg';
+import Avatar from '../assets/images/avatar.jpeg';
 
 export default function Homepage() {
   return (
     <div id="home" className="split-container">
       <div className="split-container-left-home">
-        <img alt="avatar" className="avatar" src={avatar} />
+        <img alt="avatar" className="avatar" src={Avatar} />
         <TextAnimation>
           <h1 className="author-text-home">Kun Hwi Ko</h1>
         </TextAnimation>

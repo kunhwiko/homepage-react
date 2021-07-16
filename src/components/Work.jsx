@@ -5,11 +5,11 @@ import 'react-vertical-timeline-component/style.min.css';
 import '../style/work.css';
 import { ReactComponent as Company } from '../assets/images/company.svg';
 import { ReactComponent as School } from '../assets/images/school.svg';
-import c3 from '../assets/images/c3.jpg';
-import penn from '../assets/images/penn.png';
-import barclays from '../assets/images/barclays.jpg';
-import fifth from '../assets/images/fifth.jpeg';
-import nyu from '../assets/images/nyu.jpg';
+import C3 from '../assets/images/c3.jpg';
+import Penn from '../assets/images/penn.png';
+import Barclays from '../assets/images/barclays.jpg';
+import Fifth from '../assets/images/fifth.jpeg';
+import Nyu from '../assets/images/nyu.jpg';
 
 export default function Work() {
   return (
@@ -40,7 +40,7 @@ export default function Work() {
             iconStyle={{ background: '#10e7dc'  , color: '#fff' }}
             icon={<Company />}
           >
-            <div><img className="c3" src={c3}/></div>
+            <div><img className="c3" src={C3}/></div>
             <br></br>
             <h2 className="vertical-timeline-element-title">C3.ai</h2>
             <h4 className="vertical-timeline-element-subtitle">Software Engineer - Platform</h4>
@@ -53,7 +53,7 @@ export default function Work() {
             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
             icon={<School />}
           >
-            <div><img className="penn" src={penn}/></div>
+            <div><img className="penn" src={Penn}/></div>
             <br></br>
             <h2 className="vertical-timeline-element-title">University of Pennsylvania</h2>
             <h4 className="vertical-timeline-element-subtitle">Master of Computer and Information Technology</h4>
@@ -66,7 +66,7 @@ export default function Work() {
             iconStyle={{ background: '#10e7dc', color: '#fff' }}
             icon={<Company />}
           >
-            <div><img className="penn" src={penn}/></div>
+            <div><img className="penn" src={Penn}/></div>
             <br></br>
             <h2 className="vertical-timeline-element-title">University of Pennsylvania</h2>
             <h4 className="vertical-timeline-element-subtitle">Teaching Assistant</h4>
@@ -79,7 +79,7 @@ export default function Work() {
             iconStyle={{ background: '#10e7dc', color: '#fff' }}
             icon={<Company />}
           >
-            <div><img className="barclays" src={barclays}/></div>
+            <div><img className="barclays" src={Barclays}/></div>
             <br></br>
             <h2 className="vertical-timeline-element-title">Barclays</h2>
             <h4 className="vertical-timeline-element-subtitle">Summer Developer</h4>
@@ -92,7 +92,7 @@ export default function Work() {
             iconStyle={{ background: '#10e7dc', color: '#fff' }}
             icon={<Company />}
           >
-            <div><img className="fifth" src={fifth}/></div>
+            <div><img className="fifth" src={Fifth}/></div>
             <br></br>
             <h2 className="vertical-timeline-element-title">Republic of Korea Army</h2>
             <h4 className="vertical-timeline-element-subtitle">Financial Specialist</h4>
@@ -105,7 +105,7 @@ export default function Work() {
             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
             icon={<School />}
           >
-            <div><img className="nyu" src={nyu}/></div>
+            <div><img className="nyu" src={Nyu}/></div>
             <br></br>
             <h2 className="vertical-timeline-element-title">NYU Stern School of Business</h2>
             <h4 className="vertical-timeline-element-subtitle">Master of Science in Accounting</h4>
